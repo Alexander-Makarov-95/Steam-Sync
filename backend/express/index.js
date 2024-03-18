@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const {getGamesData} = require("../express/GET/getGames");
+const {getGamesData} = require("./GET/getGames");
 const { runGame } = require('../src/runGame');
 
 //http://localhost:3000/games
